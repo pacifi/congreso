@@ -1,0 +1,133 @@
+@import"reset.css";
+@import"grid.css";
+@import"forms.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+body{
+	background:url(../images/main-bg.png) no-repeat 50% 0 #fff;
+	font:12px/18px  sans-serif;
+	color:#777;
+	position:relative;
+	min-width:970px;
+}
+h1{font-size:30px; line-height:35px; color:#777;padding:0 0 22px 0;}
+h2{font-size:30px; line-height:36px;}
+h3{font-size:27px; line-height:32px;} 
+h4{font-size:24px; line-height:30px;}  
+h5{font-size:21px; line-height:26px;}
+h6{font-size:18px; line-height:22px;}
+
+h2 span {
+	color:#ec8f23;
+	text-transform:uppercase;
+}
+header{
+	width:950px;
+	margin:0 auto;
+	background:url(../images/header-bg.png) no-repeat center bottom;
+	padding:0 0 99px 0;
+}
+	#page1 header {padding:0;}
+	header .inner {
+		padding:35px 40px 20px 40px;
+	}
+.logo {
+	display: inline-block;
+	/* [disabled]padding:0 !important; */
+	position: relative;
+	z-index: 99;
+}
+.logo a {
+	position:relative;
+	background: url(../images/logo.png) no-repeat 0 0;
+	height:65px;
+	width:204px;
+	overflow:hidden;
+	text-indent:-99em;
+	display:block;
+}
+
+ul.sf-menu {
+	
+	display:block;
+	background:#fff;
+	margin: 0px;
+	padding: 0px 100px;
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+.sf-menu > li{
+	margin: 0px;
+	position:relative;
+	display:inline-block;
+	z-index:99;
+	
+	padding: 0px;
+
+}
+
+.sf-menu > li > a {
+	display: inline-block;
+	color: #202020;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	text-transform:lowercase;
+	text-decoration:none;
+	
+	padding: 1.5em 2.75em;
+
+
+}
+.sf-menu > li > a:hover{
+	border-bottom: solid 2px red;
+}
+#page1 .sf-menu > li > a {
+	background: rgba(0,0,0,0.2);
+}
+
+/******************** Footer ******************/
+footer {
+	width:950px;
+	margin:0 auto;
+	color:#a7a7a7;
+	font-size:12px;
+	line-height:22px;
+	padding:25px 0;
+	overflow:hidden;
+}
+footer a {color:#82a9b5;}
+
+.copyright {
+	padding:0 0 0 40px;
+	float:left;
+}
+.footer-logo {
+	display:inline-block;
+	background:url(../images/footer-logo.png) no-repeat 0 0;
+	width:51px;
+	height:27px;
+	overflow:hidden;
+	text-indent:-99em;
+	margin:-9px 0 0 0;
+}
+.social-list {
+	float:right;
+}
+	.social-list li {
+		display:inline-block;
+		width:16px;
+		height:16px;
+		padding:0 2px;
+	}
+	.social-list li a {
+		display:block;
+	}
+	.social-list li a:hover img {
+		opacity:0.5;
+	}
+	
+	
+.formacion li{
+	list-style-type: square;
+}
